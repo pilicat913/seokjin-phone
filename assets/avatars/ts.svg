@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#d8352a"/>
+  <!-- 两颗星 -->
+  <path d="M176 62l15.3 31 34.2 5-24.7 24.1 5.8 34-30.6-16.1-30.6 16.1 5.8-34L126.5 98l34.2-5z" fill="#ffd23f"/>
+  <path d="M336 62l15.3 31 34.2 5-24.7 24.1 5.8 34-30.6-16.1-30.6 16.1 5.8-34L286.5 98l34.2-5z" fill="#ffd23f"/>
+  <!-- 汉堡 -->
+  <path d="M120 262c0-62 61-98 136-98s136 36 136 98c0 9-7 16-16 16H136c-9 0-16-7-16-16z" fill="#ffd23f"/>
+  <g fill="#d8352a">
+    <ellipse cx="206" cy="212" rx="7" ry="4.5" transform="rotate(-20 206 212)"/>
+    <ellipse cx="256" cy="198" rx="7" ry="4.5"/>
+    <ellipse cx="306" cy="212" rx="7" ry="4.5" transform="rotate(20 306 212)"/>
+    <ellipse cx="231" cy="240" rx="7" ry="4.5" transform="rotate(-10 231 240)"/>
+    <ellipse cx="281" cy="240" rx="7" ry="4.5" transform="rotate(10 281 240)"/>
+  </g>
+  <path d="M112 296h288c6 0 9 7 5 11l-14 14c-5 5-12 5-17 0l-10-10-12 12c-5 5-12 5-17 0l-12-12-12 12c-5 5-12 5-17 0l-12-12-12 12c-5 5-12 5-17 0l-12-12-12 12c-5 5-12 5-17 0l-12-12-12 12c-5 5-12 5-17 0l-12-12-10 10c-5 5-12 5-17 0l-14-14c-4-4-1-11 5-11z" fill="#ffd23f"/>
+  <rect x="116" y="336" width="280" height="30" rx="15" fill="#ffd23f"/>
+  <path d="M124 384h264c0 30-24 46-54 46H178c-30 0-54-16-54-46z" fill="#ffd23f"/>
+  <text x="256" y="486" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="46" letter-spacing="4" fill="#ffd23f">TWO STAR</text>
+</svg>

@@ -576,7 +576,9 @@
       nav.push(h('div', { class: 'ios settings' }, navBar(nav, '设置', '关于本机'), h('div', { class: 'i-scroll' }, h('div', { style: 'height:20px' }),
         h('div', { class: 'i-group' }, info('名称', S.deviceName), info('软件版本', '15.4.1'), info('型号名称', '—')),
         h('div', { style: 'height:28px' }),
-        h('div', { class: 'i-group' }, info('歌曲', '214'), info('视频', '3'), info('照片', String((A.album || []).length)), info('容量', '128 GB'), info('可用容量', '41.2 GB')))));
+        h('div', { class: 'i-group' }, info('歌曲', '214'), info('视频', '3'), info('照片', String((A.album || []).length)), info('容量', '128 GB'), info('可用容量', '41.2 GB')),
+        h('div', { style: 'height:420px' }),
+        h('p', { style: 'text-align:center;color:#b3b3b8;font-size:11px;line-height:1.7;padding:0 24px 40px' }, 'made by 霹雳小猫', h('br'), '《花样年华》同人作品 · 非官方'))));
     }
     return { back: () => nav.pop(), destroy: () => { U.sound.stop('alarm'); U.sound.stop('ring'); } };
   } };
